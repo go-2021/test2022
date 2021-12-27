@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"test2022/utils"
+)
 
 func main() {
 	fmt.Println("123")
-	MyPrint("你好世界！")
+	utils.MyPrint("你好世界！")
 }
